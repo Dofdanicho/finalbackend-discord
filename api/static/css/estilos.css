@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightblue;
+}
+section#contenedor{
+    width: 1024px;
+    margin: 20px auto;
+    background-color: lightseagreen;
+    height: auto;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+nav{
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+nav a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color:blue;
+}
+nav a:hover{
+    
+    color:orange;
+}
+input, textarea{
+    width: 200px;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    border:3px solid lightblue;
+}
+section#form_consulta{
+    width: 200px;
+    height: 320px;
+    margin:30px auto;
+}
+section#form_consulta2{
+    width: 300px;
+    height: 320px;
+    margin:30px auto;
+}
+#boton{
+    color: white;
+    background-color: black;
+    width: 220px;
+}
+#boton:hover{
+    color: lighgreen;
+    background-color: blue;
+}

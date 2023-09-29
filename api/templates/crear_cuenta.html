@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <title>Crear cuenta</title>
+</head>
+<body>
+    <!-- <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form> -->
+
+    <section id="contenedor" >
+        <h1>Formulario de Ingreso</h1>
+        <section id="form_consulta">
+            <form id="createForm" method="post">
+                <input type="text" id="username" name="username" placeholder="Usuario" required>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="Text" id="first_name" name="first_name" placeholder="Nombre" required>
+                <input type="Text" id="last_name" name="last_name" placeholder="Apellido" required>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" placeholder="Fecha de Nacimiento" required>
+                <input type="tel" id="phone_number" name="phone_number" placeholder="Telefono" required>
+                <label for="">Fecha de Creacion</label>
+                <input type="date" id="creation_date" name="creation_date" placeholder="Fecha de creacion" required>
+                <label for="">Ultimo Login</label>
+                <input type="date" id="last_login" name="last_login" placeholder="Ultimo Login" required>
+                <label for="">Estado</label>
+                <select name="" id="estado">
+                    <option value="1">Activo</option>
+                    <option value="2">Suspendido</option>
+                    <option value="3">Desactivado</option>
+                </select>
+                <br>
+                <label for="">Rol</label>
+                <select name="" id="rol">
+                    <option value="1">Administrador</option>
+                    <option value="2">Usuario</option>
+                    
+                </select>
+                
+                <div class="btn">
+                    <button type="submit" class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirmar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <button type="button" class="button1"><a href="login.html">Inicio</a></button>
+                </div>
+            </form>
+                    
+    </section>
+    <br><br><br><br><br><br><br><br><br>
+    <div id="message"></div>
+   
+    
+    
+    
+    
+    <script src="../static/js/create.js"></script>
+</body>
+</html>

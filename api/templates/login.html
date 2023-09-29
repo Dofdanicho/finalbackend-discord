@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <title>Login</title>
+</head>
+<body>
+    <!-- <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form> -->
+
+    <section id="contenedor" >
+        <h1>Formulario de Ingreso</h1>
+        <section id="form_consulta">
+            <form id="loginForm" method="post">
+                <input type="text" id="username" name="username" placeholder="Ingrese usuario" required>
+                <input type="password" id="password" name="password" placeholder="Ingrese contraseña" required>
+                
+
+                <div class="btn">
+                    <button type="submit" class="button1">Login</button><br>
+                    <button type="button" class="button2"><a href="crear_cuenta.html">Sign Up</a></button>
+                </div>
+                <br>
+                <button type="button" class="button3">Forgot Password</button>
+            </form>
+            <div id="message"></div>
+    </section>
+    
+
+    
+    
+    
+    <script src="../static/js/login.js"></script>
+</body>
+</html>
